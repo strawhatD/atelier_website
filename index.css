@@ -1,0 +1,74 @@
+body {
+  background-image: url(IMG_5743.JPG);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;        /* Fill the screen */
+  background-position: top;   
+  overflow-x: scroll;
+}
+
+.double-text {
+  font-size: 6vw;
+  font-weight: bold;
+  font-family: Copperplate;
+  text-transform: uppercase;
+}
+
+.text-top {
+  color: black; /* тень/нижний слой */
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translateX(-50%) translateY(-50%)
+}
+
+.text-bottom{
+  color: aliceblue;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  right:4.5%;
+  transform: translateX(-50%) translateY(-50%)
+  
+}
+.hero {
+  height: 100vh;
+  position: relative;
+}
+
+.sections{
+  color: black;
+  line-height: 0.5;
+  font-size: 2.5vw;
+  font-weight: bold;
+  font-family: Copperplate;
+  text-transform: uppercase;
+  position: absolute;
+  top: 58%;
+  right: 0;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  margin-top: 100vh;
+  padding: 80px 10vw;
+  background-color: transparent; /* important */
+  color: black; /* adjust for visibility */
+  font-size: 2.5vw;
+  font-weight: bold;
+  font-family: Copperplate;
+}
+
+
+
