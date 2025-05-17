@@ -57,7 +57,7 @@ h1{
   justify-content: center; /* center horizontally */
   gap: 40px;
   padding: 15px 20px;
-  font-size: clamp(0.75rem, 2vw, 1rem);
+  font-size: 1.5vw;
   font-weight: bold;
   font-family: Copperplate;
   text-transform: uppercase;
@@ -266,4 +266,19 @@ section {
   flex-wrap: wrap;
   justify-content: center;
   text-align: left;
+}
+
+@media (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .service-item.no-image {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .about-text, .contact-box {
+    font-size: 4vw;
+  }
 }
