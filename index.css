@@ -89,6 +89,7 @@ section {
   position: relative;
   z-index: 1;
   background-color: transparent;
+  text-align: center;
 }
 
 .service-item.no-image {
@@ -186,9 +187,10 @@ section {
   line-height: 1.6;
   color: white;
 }
+
 .language-switcher {
   position: fixed;
-  top: 20px;
+  top: 50px;
   right: 20px;
   z-index: 110; /* ✅ Higher than .sections */
 }
