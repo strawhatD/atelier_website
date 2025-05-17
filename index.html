@@ -6,43 +6,179 @@
   <link rel="stylesheet" href="index.css" />
 </head>
 <body>
-
-    <div class="double-text">
-        <span class="text-bottom">GALA PAVLIUK</span>
-        <span class="text-top">GALA PAVLIUK</span>
-    </div>
+  <div class="language-switcher">
+  <button onclick="switchLanguage('en')">EN</button>
+  <button onclick="switchLanguage('fr')">FR</button>
+</div>
 
 <div class = "sections">
-  <h3><a href="#about">About</a></h3>
-  <h3><a href = "#service">Services</a></h3>
-  <h3><a href="#work">Our work</a></h3>
-  <h3><a href = "#contact">Contact information</a></h3>     
+  <h3><a href="#home">
+    <span class="lang en">Home</span>
+    <span class="lang fr">Page d'accueil</span>
+  </a></h3>
+  <h3><a href="#about">
+    <span class="lang en">About</span>
+    <span class="lang fr">À propos</span>
+  </a></h3>
+
+  <h3><a href="#service">
+    <span class="lang en">Services</span>
+    <span class="lang fr">Services</span>
+  </a></h3>
+
+  <h3><a href="#work">
+    <span class="lang en">Our Work</span>
+    <span class="lang fr">Nos Réalisations</span>
+  </a></h3>
+
+  <h3><a href="#contact">
+    <span class="lang en">Contact Information</span>
+    <span class="lang fr">Coordonnées</span>
+  </a></h3>
+  
 </div>
   <div class = "wrapper">
+ <section id="home" class="hero-banner">
+  <div class="double-text">
+    <span class="text-bottom">GALA PAVLIUK</span>
+    <span class="text-top">GALA PAVLIUK</span>
+  </div>
+  <h2 class="slogan">Sewing stories, not just seams.</h2>
+</section>
+ <div class = "wrapper">
     <section id="about">
-      <h1>About</h1>
-      <p>This is the about section.</p>
+       <h1 class="lang en">About</h1>
+    <h1 class="lang fr">À propos</h1>
+       <div class="about-banner">
+       <div class="overlay"> </div>
+       <div class="about-content">
+    <div class="about-image">
+      <img src="IMG_6489.JPG" alt="Seamstress Portrait" class="seamstress-photo">
+    </div>
+  <div class="about-text">
+     <p class="lang en">
+     With over 20 years of tailoring experience, I bring precision, creativity, and craftsmanship to every piece. Before the war in Ukraine, I ran my own atelier where I brought both my designs and my clients’ visions to life.
+    <br><br>Now based in Maisons-Laffitte, France, I continue this work with passion — whether it’s altering a favorite garment, transforming a vintage fur coat, or creating a custom gown from scratch. Every project, big or small, is an opportunity to express style and individuality.
+    </p>
+     <p class="lang fr">Avec plus de 20 ans d’expérience dans la couture, j’apporte précision, créativité et savoir-faire à chaque création. Avant la guerre en Ukraine, je dirigeais mon propre atelier, où je donnais vie à mes propres designs ainsi qu’aux idées de mes clients.<br><br>Aujourd’hui installée à Maisons-Laffitte, en France, je continue ce travail avec passion — qu’il s’agisse de retoucher un vêtement préféré, de transformer un manteau en fourrure vintage, ou de créer une robe sur mesure à partir de zéro. Chaque projet, petit ou grand, est une occasion d’exprimer le style et l’individualité.</p>
+       <p class="lang en"><br><br>Your wardrobe is my canvas. Let’s bring your vision to life.</p>
+      <p class="lang fr"><br><br>Votre garde-robe est ma toile. Réalisons ensemble votre vision.</p>
+    </div>
+      </div>
     </section>
   </div>
   <div class="wrapper">
-    <section id="service">
-      <h1>Services</h1>
-      <p>This is the services section.</p>
-    </section>
+   <section id="service">
+   <h1 class="lang en">Services</h1>
+    <h1 class="lang fr">Services</h1>
+  <div class="service-gallery">
+    <div class="service-item no-image">
+      <h3>Repairs</h3>
+      <ul>
+        <li>Tears / Holes — <span>5–30€</span></li>
+        <li>Zippers (&lt; 25 cm) — <span>15€</span></li>
+        <li>Zippers (&gt; 25 cm) — <span>25€</span></li>
+        <li>Buttons — <span>3€</span></li>
+      </ul>
+    </div>
+
+    <div class="service-item no-image">
+      <h3>Trousers</h3>
+      <ul>
+        <li>Put in Elastic — <span>15€</span></li>
+        <li>Take in Belt — <span>30€</span></li>
+        <li>Bottom of Legs — <span>28€</span></li>
+        <li>Take in Crotch — <span>20€</span></li>
+        <li>Simple Jean Hem — <span>15€</span></li>
+        <li>Complex Jean Hem — <span>20€</span></li>
+      </ul>
+    </div>
+
+    <div class="service-item no-image">
+      <h3>Skirt</h3>
+      <ul>
+        <li>Take in Waist — <span>20€</span></li>
+        <li>Take in Sides — <span>15€</span></li>
+        <li>Widen Waist — <span>20€</span></li>
+        <li>Shorten Hem — <span>15€</span></li>
+      </ul>
+    </div>
+
+    <div class="service-item no-image">
+      <h3>Jacket</h3>
+      <ul>
+        <li>Take in Sides — <span>20€</span></li>
+        <li>Take in Shoulders — <span>20€</span></li>
+        <li>Take in Sleeves — <span>30€</span></li>
+        <li>Shorten Hem — <span>15€</span></li>
+      </ul>
+    </div>
+
+    <div class="service-item no-image">
+      <h3>Coat</h3>
+      <ul>
+        <li>Take in Waist — <span>25€</span></li>
+        <li>Take in Shoulders — <span>30€</span></li>
+        <li>Take in Sleeves — <span>35€</span></li>
+        <li>Take in Back — <span>15€</span></li>
+        <li>Shorten Length — <span>25€</span></li>
+        <li>Shorten Sleeves — <span>20€</span></li>
+      </ul>
+    </div>
+    <div class="service-item no-image">
+  <h3>Custom Tailoring</h3>
+  <ul>
+    <li>Skirt —<span>from €80</span></li>
+    <li>Basic blouse — <span>120€</span></li>
+    <li>Trousers — <span>from 100€</span></li>
+    <li>Straight dress (unlined) — <span>150€</span></li>
+    <li>Dress with lining — <span>180€</span></li>
+    <li>Jacket — <span>from 200€</span></li>
+    <li>Coat — <span>300€</span></li>
+  </ul>
+</div>
+  </div>
+</section>
   </div>
   <div class="wrapper">
     <section id="work">
-      <h1>Our Work</h1>
-      <p>This is the work section.</p>
+    <h1 class="lang en">Our Work</h1>
+    <h1 class="lang fr">Nos Réalisations</h1>
+  <div class="gallery">
+    <img src="IMG_6491 2.JPG" alt="Blue Jacket">
+    <img src="IMG_6492.JPG" alt="White Jacket">
+    <img src="IMG_6493.JPG" alt="White Jacket">
+    <img src="IMG_6494.JPG" alt="White Jacket">
+    <img src="IMG_6495.JPG" alt="Coat">
+    <img src="IMG_6496.JPG" alt="Dress">
+    <!-- Add more images as needed -->
+  </div>
     </section>
   </div>
   <div class="wrapper">
     <section id="contact">
-      <h1>Contact Information</h1>
-      <p>This is the contact section.</p>
+      <h1 class="lang en">Contact Information</h1>
+      <h1 class="lang fr">Coordonnées</h1>
+       <div class="about-banner">
+       <div class="overlay">
+      <p>(06)95-756-621</p>
+      <p>+38 099-049-4737(WHATSAPP)</p>
+      <p>Located in Maisons-Laffitte, Paris, France</p>
+      </div>
+      </div>
     </section>
   </div>
 
+<script>
+  function switchLanguage(lang) {
+    const elements = document.querySelectorAll('.lang');
+    elements.forEach(el => {
+      el.style.display = el.classList.contains(lang) ? 'inline' : 'none';
+    });
+  }
+
+  switchLanguage('en'); // Default language
+</script>
 
 </body>
 </html>
